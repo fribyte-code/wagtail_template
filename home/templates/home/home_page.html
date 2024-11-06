@@ -1,71 +1,19 @@
 {% extends "base.html" %}
 {% load wagtailcore_tags wagtailimages_tags %}
 
+<!-- Load static colder for CSS -->
+{% load static %}
+
 {% block body_class %}template-homepage{% endblock %}
 
 {% block extra_css %}
+    
+    <!-- Specify which style sheet should be used -->
+    <link rel="stylesheet" href="{% static 'css/home_page.css' %}">
+    
+    <!-- We can write css here too! -->
     <style>
-        body {
-            margin: 0;
-        }
-
-        .textBox {
-            margin-left: 18em;
-            margin-right: 18em;
-            margin-top: 2em;
-            margin-bottom: 10em;
-        }
-
-        .navbar {
-            font-size: 1.2em;
-            display: flex;
-            flex-direction: row;
-            background: #2F3E4E;
-            height: auto;
-            justify-content: center;
-        }
-
-        .navbar-left {
-            color: white;
-            padding: 1em;
-            margin: auto;
-            filter: invert(100%);
-        }
-
-        .navbar-center {
-            color: white;
-            margin: auto;
-        }
-
-        .signInButton {
-            margin: auto;
-            background-color: #FFC107;
-            color: #2F3E4E;
-            border: none;
-            width: 8em;
-            height: 2.5em;
-            border-radius: 50px;
-            font-size: 16px;
-            cursor: pointer;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .signInButton:hover {
-            background-color: white;
-        }
-
-        .link {
-            color: white;
-            text-decoration: none;
-        }
-
-        .link:hover {
-            color: #FFC107;
-        }
-
-
-
+    
     </style>
 
 

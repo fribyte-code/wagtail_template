@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "wagtail-template"
+version = "0.1.0"
+description = ""
+authors = ["Kai.Waloen <kawal5842@uib.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

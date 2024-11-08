@@ -44,7 +44,7 @@ The website should now be in working order on your computer. On running the webs
 
 ### Creating new pages.
 
-New pages can be created by going to [localhost:8000/admin/](http://localhost:8000/admin/) -> Pages -> click on the pencil next to the title -> click on the triple dots on the top of the page -> Add child page.
+New pages can be created by going to [localhost:8000/admin/](http://localhost:8000/admin/) and logging in using the superuser username and password you created in the step above 👆. Then go to -> Pages -> click on the pencil next to the title -> click on the triple dots on the top of the page -> Add child page.
 
 You can navigate to the page that you created by using the title of your page like this:  
 For example if we made a page with the title "testpage", navigate to [localhost:8000/testpage/](http://localhost:8000/testpage/) after you publish using the drop up menu at the bottom of the page.

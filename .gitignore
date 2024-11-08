@@ -1,2 +1,6 @@
-db.sqlite3
+**/__pycache__
+*.sqlite3
+.DS_Store
+desktop.ini
 .idea
+.vscode

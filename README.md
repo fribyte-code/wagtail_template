@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/06642d80-3afe-4fd3-a663-6bea5eaff167)
+
+
 # wagtail-template
 
 This is the template that can be used for projects using wagtail.
